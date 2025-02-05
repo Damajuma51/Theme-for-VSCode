@@ -2,6 +2,7 @@
   "name": "mariothemeid",
   "displayName": "mario-theme 2.0",
   "description": "Esto es una version modificada de mi antiguo tema para vscode",
+  "publisher": "MarioSantosHeredia",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.96.0"
@@ -9,6 +10,10 @@
   "categories": [
     "Themes"
   ],
+  "repository": {
+		"type": "git",
+		"url": "git+https://github.com/Damajuma51/Theme-for-VSCode"
+	},
   "contributes": {
     "themes": [
       {
