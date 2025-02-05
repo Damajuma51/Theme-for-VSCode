@@ -1,0 +1,28 @@
+{
+  "name": "mariothemeid",
+  "displayName": "mario-theme 2.0",
+  "description": "Esto es una version modificada de mi antiguo tema para vscode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "mariotheme2.0",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mariotheme2.0-color-theme.json"
+      }
+    ],
+    "iconThemes": [
+			{
+				"id": "mario-icon-theme",
+				"label": "Mario Icon Theme",
+				"path": "./themes/mario-icon-theme.json"
+			}
+		]
+  }
+}
